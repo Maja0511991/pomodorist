@@ -1,42 +1,31 @@
 <html>
+
 <head>
-
-<meta charset="UTF-8">
-  <title>Pomodoro Timer</title>
-    
-  <link href='https://fonts.googleapis.com/css?family=Cousine:700italic' rel='stylesheet' type='text/css'>
- <link rel="stylesheet" href="./css/pomodorist.css">
- 
- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <link href='https://fonts.googleapis.com/css?family=Cousine:700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/pomodorist.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
+
 <body>
-    
-    
-<div align="center">
 
-<h1>
-    Pomodoro timer
-</h1>
-<p id="timer"><span id="minutes-tens">0</span><span id="minutes-ones">0</span>:<span id="seconds-tens">0</span></span><span id="seconds-ones">0</span></p>
-
-<button onClick='countDown25()'>Work</button>
-
-<button onClick='countDown5()'>Break</button>
-<br/>
-<button onClick='refresh()'>Reset</button>
- 
-</div>
-
-<script src="./js/pomodorist.js"></script>
-
-</body>
+    <body>
+        <main>
+            <div>
+                <h1>Pomodoro timer</h1>
+                <button id="btnWork" onclick="work()" title="Start work timer.">Work</button>
+                <button id="btnRest" onclick="rest()" title="Start rest timer.">Break</button>
+                <button id="btnStop" onclick="stop()" title="Stop running timer.">Reset</button>
+            </div>
+            <div id="display">25:00</div>
+            <div id="log">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+        </main>
+        <script src="./js/pomodorist.js"></script>
+    </body>
 
 </html>
-
-
-
-
-
-
-
-

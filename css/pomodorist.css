@@ -1,63 +1,55 @@
-
-html,body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
 
 body {
-        background-image: url("../img/pexels-photo.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-family: 'Lato', sans-serif;
-    }
+    background-image: url("../img/montana-wallpaper-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
 
 
-h1
-    {
-    color:white;
-    font-size: 50px;
-    margin: 30px;
-    
-    }
-    
+h1 {
+    color: white;
+    font-size: 60px;
+}
 
-    #timer 
-    {   
-        color:greenyellow;
-        text-align: center;
-        font-size: 1100%;
-        max-width: 500px;
-        margin-top: 10px;
-        margin-bottom: 10px; 
-        
-         }
-    
 
-   
+#display {
+    color: greenyellow;
+    text-align: center;
+    font-size: 13em;
+}
 
-    button
-    {   
-        background-color:rebeccapurple; 
-        border-radius: 50px;
-        color: white;
-        border:none;
-        cursor: pointer;
-        height: 60px;
-        width: 160px;
-        margin-bottom: 15px;
-        margin-left: 5px;
-        font-size: 30px;
-        padding: small;
-        text-align: center;
-        
-        
-     }
- 
+main {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
 
-    button:hover
-    {
-    box-shadow: 0px 2px 20px 1px rgba(0,0,0,0.3);
-    }     
 
+
+button {
+    background-color: rebeccapurple;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 160px;
+    font-size: 30px;
+    padding: small;
+    text-align: center;
+}
+
+
+button:hover {
+    box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.3);
+}
